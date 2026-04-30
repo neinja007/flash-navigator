@@ -13,15 +13,14 @@ __metadata:
   linkType: hard
 
 "@clerk/backend@npm:^2.25.0":
-  version: 2.25.0
-  resolution: "@clerk/backend@npm:2.25.0"
+  version: 2.33.3
+  resolution: "@clerk/backend@npm:2.33.3"
   dependencies:
-    "@clerk/shared": "npm:^3.37.0"
-    "@clerk/types": "npm:^4.101.4"
-    cookie: "npm:1.0.2"
+    "@clerk/shared": "npm:^3.47.5"
+    "@clerk/types": "npm:^4.101.23"
     standardwebhooks: "npm:^1.0.0"
     tslib: "npm:2.8.1"
-  checksum: 10c0/6d9bf6f8d8cc815224eb8ca4ae05933dcb951ff47fa6f837504f06996407d33d059d633047ba850536089c2e1227f06efa8599d29144eaf8b98c20c5cc472d37
+  checksum: 10c0/b2a432e3a270562c149c625b50c6355270fd036393760b1497206763d82a2bb569bdd3fba2d57b44e3d981f03c526d75056bdd410fac82d26f1c87df3954fb15
   languageName: node
   linkType: hard
 
@@ -84,6 +83,37 @@ __metadata:
     react-dom:
       optional: true
   checksum: 10c0/78efb6bcff43c704067c6470e8f7dc5fb39ef8be7ccae2e9d9ab539ebf3caf2a661667000121c5215a0121ec107d0782aa0c8925a144d29986d1a4f40bec922a
+  languageName: node
+  linkType: hard
+
+"@clerk/shared@npm:^3.47.5":
+  version: 3.47.5
+  resolution: "@clerk/shared@npm:3.47.5"
+  dependencies:
+    csstype: "npm:3.1.3"
+    dequal: "npm:2.0.3"
+    glob-to-regexp: "npm:0.4.1"
+    js-cookie: "npm:3.0.5"
+    std-env: "npm:^3.9.0"
+    swr: "npm:2.3.4"
+  peerDependencies:
+    react: ^18.0.0 || ~19.0.3 || ~19.1.4 || ~19.2.3 || ~19.3.0-0
+    react-dom: ^18.0.0 || ~19.0.3 || ~19.1.4 || ~19.2.3 || ~19.3.0-0
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  checksum: 10c0/7a4ac3c36270e2b7add191a00ed33a7446542de98bce700841fb36a132aad5e9a6be3413997652066871754dfc233c4105d260594517c93167e03b2711b40808
+  languageName: node
+  linkType: hard
+
+"@clerk/types@npm:^4.101.23":
+  version: 4.101.23
+  resolution: "@clerk/types@npm:4.101.23"
+  dependencies:
+    "@clerk/shared": "npm:^3.47.5"
+  checksum: 10c0/b99178b11eb05b17dcb4ccb027184736cde0eadff6c5b3c0053dad03299e3dd3ccc52bfb31b25404dcb7631d76dfa07468b95fd89d53acf3ff6b60045ffb6b23
   languageName: node
   linkType: hard
 
@@ -1589,13 +1619,6 @@ __metadata:
   version: 0.0.1
   resolution: "concat-map@npm:0.0.1"
   checksum: 10c0/c996b1cfdf95b6c90fee4dae37e332c8b6eb7d106430c17d538034c0ad9a1630cb194d2ab37293b1bdd4d779494beee7786d586a50bd9376fd6f7bcc2bd4c98f
-  languageName: node
-  linkType: hard
-
-"cookie@npm:1.0.2":
-  version: 1.0.2
-  resolution: "cookie@npm:1.0.2"
-  checksum: 10c0/fd25fe79e8fbcfcaf6aa61cd081c55d144eeeba755206c058682257cb38c4bd6795c6620de3f064c740695bb65b7949ebb1db7a95e4636efb8357a335ad3f54b
   languageName: node
   linkType: hard
 
