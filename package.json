@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@clerk/localizations": "^3.29.0",
-    "@clerk/nextjs": "^6.35.6",
+    "@clerk/nextjs": "^6.39.3",
     "@vercel/analytics": "^1.6.1",
     "@vercel/blob": "^0.23.4",
     "clsx": "^2.1.1",
